@@ -1,13 +1,9 @@
 function firstWord(s) {
   // your code here
-	for (let char of s) {
-		if (char===" ") {
-			var first=slice(0,indexOf(char));
-			return first;
-		}
-	}
+	let spacevalue =s.split(" ");
+	let first =spacevalue[0];
+	return first;
 }
-
 // Do not change the code below
 
 const s = prompt("Enter String:");
