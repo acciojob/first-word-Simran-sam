@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	let spacevalue =s.split(" ");
+	let spacevalue =s.trim().split(" ");
 	let first =spacevalue[0];
 	return first;
 }
